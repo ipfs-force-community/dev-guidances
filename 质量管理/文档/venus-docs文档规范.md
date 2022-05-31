@@ -113,31 +113,31 @@
 
 1. 灵活使用`vuepress`提供的"提示"和“注意”功能，让文档阅读更有层次。例：
 
-:::tip
-这是一个提示，vuepress生成绿色
-:::
-
-:::warning
-这是一个注意，vuepress生成黄色
-:::
+	:::tip
+	这是一个提示，vuepress生成绿色
+	:::
+	
+	:::warning
+	这是一个注意，vuepress生成黄色
+	:::
 
 2. 命令行开头使用`$`，利于读者区别于终端输出，前面就没有`$`。例：
 
-```bash
-$ whois google.com
-% IANA WHOIS server
-% for more information on IANA, visit http://www.iana.org
-% This query returned 1 object
-```
+	```bash
+	$ whois google.com
+	% IANA WHOIS server
+	% for more information on IANA, visit http://www.iana.org
+	% This query returned 1 object
+	```
 
 3. 文档链接尽量使用相对，而非绝对链接。例：
 
-[相同目录可以直接用文件名](xiangtongmulu)
-[不同目录可以使用相对路径](/zh/cluster/new)
+	[相同目录可以直接用文件名](xiangtongmulu)
+	[不同目录可以使用相对路径](/zh/cluster/new)
 
 
 4. 灵活使用`markdown`的功能，把专用名词框起来。例：
 
-`venus-cluster`，`venus-market`，等等
+	`venus-cluster`，`venus-market`，等等
 
 5. 图片按需存放在`docs/.vuepress/public`路径下。
