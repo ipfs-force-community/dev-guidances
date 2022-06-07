@@ -176,7 +176,7 @@ jobs:
   需要注意：
 
   1. cache 一般和编译的依赖清单绑定，如 golang 项目的 `go.sum`，rust 项目的 `Cargo.lock`
-  2. 在使用 `actions/cache` 的情况下，倾向于认为，jobs 应该合并，而非如上一条 tip 所建议的那样进行拆分，这是为了尽可能服用cache，同时避免 cache-miss 时重复构建
+  2. 在使用 `actions/cache` 的情况下，倾向于认为，jobs 应该合并，而非如上一条 tip 所建议的那样进行拆分，这是为了尽可能复用 cache，同时避免 cache-miss 时重复构建
   3. 在 go 项目中，由于编译时间本身就比较短，所以节省的时间并不明显
   4. 观察日志可知，`venus-worker` 中涉及到 c/c++ 项目编译及链接的部分的耗时，即使在 cache 之后，也无法被消除，这可能跟编译过程本身有关，也可能跟 cache 目录的设置有关，有待进一步确认。
 
