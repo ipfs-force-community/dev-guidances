@@ -165,3 +165,26 @@ jobs:
 ### Tips
 
 - 在 github 上，如果两个 jobs 都很耗时，且前后没有明显的依赖，如：后续任务依赖前置任务的结果，或者前置任务可以节省后置任务大量时间，那么它们更应该被拆分为两个 actions 并行来完成
+
+- 在 `github-actions` 的编排中，使用 `actions/cache` 能够在一些条件下降低执行时间，无论从节约时间限额，还是缩短 review checks 的等待来说，都是十分有意义的。 
+
+  以 venus-cluster 为例，在编排合理的情况下，cache 构建前后，
+
+  - venus-worker: `36m5s => 18m26s`
+  - venus-sector-manager: `4m19s => 3m46s`
+
+  需要注意：
+
+  1. cache 一般和编译的依赖清单绑定，如 golang 项目的 `go.sum`，rust 项目的 `Cargo.lock`
+  2. 在使用 `actions/cache` 的情况下，倾向于认为，jobs 应该合并，而非如上一条 tip 所建议的那样进行拆分，这是为了尽可能服用cache，同时避免 cache-miss 时重复构建
+  3. 在 go 项目中，由于编译时间本身就比较短，所以节省的时间并不明显
+  4. 观察日志可知，`venus-worker` 中涉及到 c/c++ 项目编译及链接的部分的耗时，即使在 cache 之后，也无法被消除，这可能跟编译过程本身有关，也可能跟 cache 目录的设置有关，有待进一步确认。
+
+  参考阅读：
+
+  - [actions/cache](https://github.com/actions/cache)
+  - [缓存依赖项以加快工作流程](https://docs.github.com/cn/actions/using-workflows/caching-dependencies-to-speed-up-workflows)
+  - [How I speeded up my Rust builds on GitHub ~30 times](https://ectobit.com/blog/speed-up-github-actions-rust-pipelines/)
+
+
+
