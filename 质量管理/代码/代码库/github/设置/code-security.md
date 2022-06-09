@@ -1,6 +1,6 @@
 # Code security and analysis
 
-对于重要的代码库，我们应当启用 `Code security and analysis` 配置页中的一些基本选项，并按照一定规范去处理报警。
+对于重要的代码库，只要不是因为隐私问题而必须关闭代码扫描的，我们都应当启用 `Code security and analysis` 配置页中的一些基本选项，并按照一定规范去处理报警。
 
 
 
@@ -16,11 +16,17 @@
 
 ## 处理 Dependabot Alerts
 
+[关于 Dependabot alerts](https://docs.github.com/cn/code-security/dependabot/dependabot-alerts/about-dependabot-alerts)
+
+
+
 当项目的依赖库被报告出现安全问题时，dependabots 会根据配置，自动发起报警， 并尝试生成一个 `update pull request`。
 
 同时，在项目的 `Security` 标签上会展示未处理的事件数量。
 
 代码库的维护者必须关注 `Security` 的情况，并作出处理。处理时应当遵循以下规范：
+
+- `Severity` 达到 `high`、`critical` 的，必须处理，其余可酌情处理。
 
 - 对于自动生成的 `update pull request`，维护者核对报警信息与更新内容，确认无误后合并
 
