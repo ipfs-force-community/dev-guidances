@@ -33,7 +33,7 @@
 
 `issue`不仅可以被`label`，也能被设置其所属的`projects`。当前`Venus`各组件的`issue`都需要被加入到[Venus Project](https://github.com/orgs/filecoin-project/projects/51)中，便于进行可视化管理。
 
-### Github Issue Asignees
+### Github Issue Assignees
 
 通过`assign`，可以把`issue`分配给指定人员，便于`github project`对任务执行人的可视化管理。也方便团队内部协作。
 
