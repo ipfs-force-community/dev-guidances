@@ -35,7 +35,7 @@
 
 ### Github Issue Asignees
 
-`issue`通过被`asign`，把`issue`分配给指定人员。通过对`issue`进行`asign`，便于`github project`对任务执行人的可视化管理。也方便团队内部协作。
+通过`assign`，可以把`issue`分配给指定人员，便于`github project`对任务执行人的可视化管理。也方便团队内部协作。
 
 ## issue提交流程
 
