@@ -75,7 +75,7 @@ fix https://github.com/filecoin-project/venus/issues/4971
 
 - `TODO List View`: 没有定义`sprint`的所有`issue`合集。可以理解为当前待完成的`issue`池。每个`sprint`计划会议之前，需要研发同学对各个`issue`过一遍，并挑选`issue`到新的`sprint`开发计划中。有疑问的，可在计划会中一起讨论。
 - `Cur Sprint`: 被添加到当前`sprint`所有的`issue`的列表视图。可以方便的可视化查看有哪些研发被`assign`了哪儿些`issue`。
-- `Cur Sprint BV`: 被添加到当前`sprint`所有的`issue`的卡片视图。可以方便的可视化哪儿些`issue`轮转到了哪儿个状态。
+- `Cur Sprint BV`: 被添加到当前`sprint`所有的`issue`的卡片视图。可以方便的可视化哪些`issue`轮转到了哪个状态。
 - `Last Sprint`: 被添加到上个`sprint`所有的`issue`的列表视图。方便可视化查看上个`sprint`的任务完成情况。
 - `Next Sprint`: 被添加到下一个`sprint`所有的`issue`的列表视图。
 
