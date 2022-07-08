@@ -106,7 +106,7 @@ fix https://github.com/filecoin-project/venus/issues/4971
 
 ### Sprint进行中
 
-- 根据`Sprint`制定的目标，认领相关`issue`，`asign`该`issue`任务，并完成`issue`对应的相关任务。
+- 根据`Sprint`制定的目标，认领相关`issue`，`assign`该`issue`任务，并完成对应的相关任务。
 - 如在`Sprint`中，展开目标过程中，需要对`issue`进行修改/补充的，可以按需调整。
 - 如在`Sprint`中，有突发`issue`需要处理，可以对`sprint`目标进行适当调整。
 
