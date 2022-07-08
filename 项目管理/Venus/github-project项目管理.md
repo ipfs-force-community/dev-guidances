@@ -6,7 +6,7 @@
 
 ### Github Issue
 
-`Github issue`作为项目管理的核心。下面通过`issue名称：issue内容`的格式，对可以通过建立一个`issue`的事项列举：
+`Github issue`作为项目管理的核心。下面通过`issue名称：issue内容`的格式，对可以建立`issue`的事项进行列举：
 
 - `Sprint XX`: 某个`Sprint`的所包含的`sprint`目标。每个目标以`task list`形式在`sprint`计划会前列举，供团队在计划会上讨论。参考[例子](https://github.com/filecoin-project/venus/issues/4972)。
 - `[venus-xxx]发布vX.Y.Z`: `Venus`某个组件发布新版本。参考[例子](https://github.com/filecoin-project/venus/issues/4972)。
