@@ -22,6 +22,7 @@
 - `BU-storage-power-service`: 此`label`泛指`issue`与算力服务有关。因为`Venus`组件组织架构的问题，`venus-cluster`相关的开发`issue`主要在其本身的[repo](https://github.com/ipfs-force-community/venus-cluster)中进行。
 - `C-dev-productivity`: 此`label`指`issue`与研发自身流程有关，并不包含实际的开发任务。（这里`C`指代`Category`）参考[例子](https://github.com/filecoin-project/venus/issues/4972)。
 - `C-bug`: 此`label`指`issue`是一个`bug`。
+- `C-enhancement`: 此`label`指`issue`是一个`enhancement`，它可以是一个新的功能特性也可以是对当前功能特性的完善。
 - `C-docs`: 此`label`指`issue`与文档相关。
 - `C-Testing`: 此`label`指`issue`是一个测试用例/需求。
 - `community`: 此`label`指`issue`来自社区。
