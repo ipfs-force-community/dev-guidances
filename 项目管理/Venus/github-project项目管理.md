@@ -9,9 +9,11 @@
 `Github issue`作为项目管理的核心。下面通过`issue名称：issue内容`的格式，对可以建立`issue`的事项进行列举：
 
 - `Sprint XX`: 某个`Sprint`的所包含的`sprint`目标。每个目标以`task list`形式在`sprint`计划会前列举，供团队在计划会上讨论。参考[例子](https://github.com/filecoin-project/venus/issues/4972)。
-- `[venus-xxx]发布vX.Y.Z`: `Venus`某个组件发布新版本。参考[例子](https://github.com/filecoin-project/venus/issues/4972)。
-- `[venus-xxx]修复/新增/完善xxx功能`: `Venus`某个组件可以单个`PR`完成的一个开发任务。一个开发任务可以是一个`bug`，一个新`feature`，一个优化，等等。参考[例子](https://github.com/filecoin-project/venus/issues/4975)。
+- `[venus-xxx]发布vX.Y.Z / release vX.Y.Z`: `Venus`某个组件发布新版本。参考[例子](https://github.com/filecoin-project/venus/issues/4972)。
+- `[venus-xxx]修复/新增/完善xxx功能 / fix/add/update xxx feature`: `Venus`某个组件可以单个`PR`完成的一个开发任务。一个开发任务可以是一个`bug`，一个新`feature`，一个优化，等等。参考[例子](https://github.com/filecoin-project/venus/issues/4975)。
 - `[venus-docs]xxxxxxx文档`: `venus-docs`或者某个组件文档撰写的相关任务。参考[例子](https://github.com/filecoin-project/venus/issues/5004)。
+
+⚠️注意：在`venus`项目不断国际化的大背景下，提交`issue`名称采用中英文格式。例，`[venus-xxx] English description / 中文描述`，实际使用[案例](https://github.com/ipfs-force-community/go-fvm-sdk/issues/108)。
 
 ### Github Issue Label
 
@@ -40,12 +42,12 @@
 
 ## issue提交流程
 
-1. 提交新`issue`可参照上述`github issue`类型，依样对`issue`命名。例：
+1. 提交新`issue`可参照上述`github issue`类型，依样对`issue`[命名](https://github.com/ipfs-force-community/go-fvm-sdk/issues/108)。例：
 
 ```
 Sprint 50
-[venus-market]发布v3.0.0
-[venus-market]修复检索polling panic错误
+[venus-market]发布v3.0.0 / release v3.0.0
+[venus-market]修复检索polling panic错误 / fix retrieval polling panic bug
 ```
 
 2. 按`issue`[模版](https://github.com/filecoin-project/venus/tree/master/.github/ISSUE_TEMPLATE)的提示，添加对`issue`必要的描述。
