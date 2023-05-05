@@ -87,7 +87,8 @@ fix https://github.com/filecoin-project/venus/issues/4971
 当前[Github Project](https://github.com/orgs/filecoin-project/projects/51/views/8)状态包括：
 
 - `No Status`: 当`issue`新加入至`projects`时，将被自动加入到`No Status`状态。
-- `In Progress`: 受限于当前`github project`相对比较初级的自动化状态流转的条件。`issue`从`No Status`流转到`In Progress`暂时需要手动拖动。
+- `Todo`: 当`issue`新加入至`Sprint`时，将被自动加入到`Todo`状态。
+- `In Progress`: 受限于当前`github project`相对比较初级的自动化状态流转的条件。`issue`从`Todo`流转到`In Progress`暂时需要手动拖动。
 - `In Review`: 当一个`PR`被添加到 project 中，或被要求有`review:changes_requested`时候，这个`PR`会自动流转到`In Review`状态。
 - `Reviewed`: 当一个`PR`被`review:approved`，那么这个`PR`将被自动流转到`Reviewed`状态。
 - `Done`: 当一个`PR`被合并，并且这个`PR`的描述中正确使用了诸如`resolve`, `close`, `fix`等[Github keywords](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword)来关联相关`issue`的时候，那么`issue`和`PR`都将自动流转到`Done`状态。
