@@ -113,7 +113,7 @@ fix https://github.com/filecoin-project/venus/issues/4971
 ### Sprint完成
 
 + 总结会前，需要同步更新完看板的issue状态，备注完成百分比等信息放进`Remarks`列。
-+   `Sprint`总结会议，对该`Sprint`每个目标完成度进行评估，并根据Keep、Improve、Start、Stop敏捷方法进行总结，同时记录会议纪要。
++   `Sprint`总结会议，对该`Sprint`每个目标完成度进行评估，并根据`Keep、Improve、Start、Stop`敏捷方法进行总结，同时记录会议纪要。
 + 整理未完成`issue`，对其进行评估和说明，视情况关闭或者加入`TODO List View`中。
 + 确定下一个Sprint的主题，并填写`Sprint Issue`。例: `Sprint 64`
 
