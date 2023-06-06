@@ -102,21 +102,20 @@ fix https://github.com/filecoin-project/venus/issues/4971
 
 ### Sprint开始
 
-- `sprint`计划会议前对`TODO List view`中的`issue`提前整理，有疑问的可以在会上讨论。
-- `sprint`计划会议前，建立该`Sprint`对应的`issue`。例: `Sprint 51`
-- 召开`Sprint`计划会议，依照季度目标，确立`Sprint`目标，并在`Sprint issue`中以`task list`形式列出
-- 依照制定的`sprint`目标，按需建立对应的`issue`。遵守`Sprint`开发`SMART`原则。
++ 召开`Sprint`计划会议前，依照总结会得出的Sprint主题，Milestone计划和季度目标，各自按需选择或者建立`issue`到`github Projects`的`Sprint`看板。并选择好`assignee`。遵守`Sprint`开发`SMART`原则。
++ 计划会时，对`github Projects`的`Sprint`看板`issue`进行逐个讨论分析，需要说明本迭代选择这个issue的原因。由大家一起决定本次`Sprint`的功能集合。
 
 ### Sprint进行中
-
-- 根据`Sprint`制定的目标，认领相关`issue`，`assign`该`issue`任务，并完成对应的相关任务。
-- 如在`Sprint`中，展开目标过程中，需要对`issue`进行修改/补充的，可以按需调整。
-- 如在`Sprint`中，有突发`issue`需要处理，可以对`sprint`目标进行适当调整。
++ 如在`Sprint`中，展开目标过程中，需要对`issue`进行修改/补充的，可以按需调整，需要同步更新`github Projects`的看板。
++ 如在`Sprint`中，有突发`issue`需要处理，可以对`sprint`目标进行适当调整，需要同步更新 `Sprint issue。`
++ `issue`状态改变了，需要同步更新看板状态，建议晨会前更新，未更新者晨会时当下更新。
 
 ### Sprint完成
 
-- `sprint`总结会议，对该`Sprint`每个目标完成度进行评估。
-- 整理未完成`issue`，对其进行评估，视情况关闭或者加入`TODO List View`中。
++ 总结会前，需要同步更新完看板的issue状态，备注完成百分比等信息放进`Remarks`列。
++   `Sprint`总结会议，对该`Sprint`每个目标完成度进行评估，并根据`Keep、Improve、Start、Stop`敏捷方法进行总结，同时记录会议纪要。
++ 整理未完成`issue`，对其进行评估和说明，视情况关闭或者加入`TODO List View`中。
++ 确定下一个Sprint的主题，并填写`Sprint Issue`。例: `Sprint 64`
 
 
 
